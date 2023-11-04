@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayali Thorat-Software Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 8, 17);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(46, 60, 80);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(179, 179, 228);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 50px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            /* margin: 70px 0; */
+
+        }
+
+        .leftsection .buttons {
+            padding: 40px 0;
+        }
+
+        .leftsection .btn {
+            padding: 10px;
+            background: #0c0e58;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 70%;
+
+        }
+
+        .purple {
+            color: rgb(105, 105, 245);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(35, 35, 221);
+        }
+
+        .secondSection {
+            max-width: 90vw;
+            margin: auto;
+            height: 100vh;
+        }
+       
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 12px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            width: 1px;
+            height: 70px;
+            margin: 0 250px;
+        }
+
+        .image-top {
+            width: 45px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            width: 300px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 70px;
+            color: rgb(185, 179, 179);
+            width: 300px;
+            font-size: 15px;
+        }
+
+        .row:after {
+            padding: 20px 0;
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Six columns side by side */
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 45vh;
+        }
+
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 150px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sayali's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="file:///C:/Users/thora/Desktop/Portfolio/index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Education.html">Education Details</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftsection">
+                Hii, My name is <span class="purple">Sayali</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <a href="https://github.com/Sayali-H-Thorat">
+                <div class="buttons">
+                    <button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Profile_Pic.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1>Languages Known:</h1><br><br>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="C_Logo.png" style="width:90%" alt="C">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="c++.png" style="width:90%" alt="C++">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="java1.jpg" style="width:90%" alt="Java">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="html.png" style="width:90%" alt="HTML">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="css.png" style="width:90%" alt="CSS">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="js.jpg" style="width:90%" alt="JavaScript">
+                </div>
+            </div>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="java.jpg" alt="">
+                    <div class="vertical-title">
+                        Floating Minds Infotech Hadapsar (June 2020 - Dec 2020)
+                        <br><br>
+                        Java Software Developer                        
+                    </div>
+                    <div class="vertical-desc"><p><b>Laundry Management System</b> </p><br>
+                        <li><b>Technologies Used:</b> Java,Mysql</li><br>
+                        <p><b>Description:-</b></p>
+                        <li>
+                            The fundamental objective of laundry management is to overcome the challenges of laundry firms by establishing an automated environment for laundry operations.
+                        </li>
+                        <li>This includes taking orders,maintaining records, scheduling delivery and pickup and managing payment</li>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="system.jpg" alt="">
+                    <div class="vertical-title">
+                       Wyse Biometrics System Pvt Ltd(Feb 2022 - Sep 2022)
+                       <br><br>
+                       Software Developer
+                    </div>
+                    <div class="vertical-desc"><p><b>Visitor Management System</b></p><br>
+                    <li><b>Technologies Used:-</b>C#.net, Angular</li><br>
+                    <p><b>Description:-</b></p>
+                <li>This project is used to keep records of the meetings scheduled for organisation</li>
+            <li>In this system, we can schedule the meet and keep track of all the meets.</li>
+        <li>This system contains reports of the visitors in pdf and excel format.</li></div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-rights">
+            Copyright &#169; SAYALI THORAT | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software developer.', 'Java Full stack developer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
